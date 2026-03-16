@@ -1,0 +1,25 @@
+{
+  "title": "New Customer Product Inquiry",
+  "description": "Potential customer calling to learn about TechFlow's features and pricing before signing up.",
+  "caller_number": "+15555550100",
+  "turns": [
+    {
+      "caller": "Hi there. I'm evaluating project management tools for my team of about 25 people. Can you tell me what TechFlow offers?"
+    },
+    {
+      "caller": "That sounds interesting. What would pricing look like for a team of 25?"
+    },
+    {
+      "caller": "We're currently using Jira. Does TechFlow integrate with it? We can't do a full migration right away."
+    },
+    {
+      "caller": "Good to know. What about data security? We're in healthcare so compliance matters a lot to us."
+    },
+    {
+      "caller": "Can we start with a trial? And can you send me more information about the Enterprise plan?"
+    },
+    {
+      "caller": "Great, I'll check it out. Thanks for your time."
+    }
+  ]
+}

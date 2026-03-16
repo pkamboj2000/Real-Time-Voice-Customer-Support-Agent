@@ -1,0 +1,32 @@
+[
+  {
+    "title": "TechFlow Project Management — Getting Started Guide",
+    "content": "Welcome to TechFlow. To get started, create a new workspace by clicking the plus icon in the top left corner. Name your workspace and invite your team members. Next, create your first project by clicking 'New Project' and selecting a template or starting from scratch. Projects contain boards, which contain lists, which contain tasks. Think of it like a hierarchy: Workspace > Project > Board > List > Task. Each task can have assignees, due dates, labels, attachments, comments, and custom fields. You can switch between Board view then List view then Timeline view and Calendar view depending on what works best for your workflow.",
+    "category": "product_info",
+    "metadata": {"doc_type": "guide", "version": "3.2"}
+  },
+  {
+    "title": "TechFlow Time Tracking Feature",
+    "content": "Time tracking is available on Professional and Enterprise plans. To start tracking time on a task, open the task and click the stopwatch icon. You can also manually add time entries by clicking 'Add Time' and entering the hours. Time reports are available under Project > Reports > Time. You can filter by team member, date range, project, and label. Reports can be exported as CSV for use in invoicing or payroll systems. Managers can see time entries for their entire team. Individual contributors can only see their own entries unless workspace settings allow team-wide visibility.",
+    "category": "product_info",
+    "metadata": {"doc_type": "feature_guide", "version": "3.2"}
+  },
+  {
+    "title": "TechFlow Automations",
+    "content": "TechFlow supports workflow automations to reduce repetitive work. Automations use a when-then model: when a trigger event occurs, then an action is performed. For example: when a task moves to the Done list, then assign a review task to the project lead. Common triggers include task creation, status change, due date approaching, and label changes. Common actions include moving tasks, changing assignees, sending notifications, and creating subtasks. You can set up automations in Project Settings > Automations. Professional plans get 100 automation runs per month. Enterprise plans get unlimited runs. Automations run within seconds of the trigger event.",
+    "category": "product_info",
+    "metadata": {"doc_type": "feature_guide", "version": "3.2"}
+  },
+  {
+    "title": "TechFlow API Documentation Overview",
+    "content": "The TechFlow REST API allows you to programmatically interact with your workspace data. Authentication uses API tokens generated in Settings > Developer > API Tokens. The API supports CRUD operations for workspaces, projects, boards, lists, tasks, comments, and users. Rate limits are 100 requests per minute for Professional plans and 1000 for Enterprise. All API responses are JSON. Webhook support allows you to receive real-time notifications when events occur in your workspace. Full API documentation with interactive examples is available at docs.techflow.io/api. SDKs are available for Python, JavaScript, and Ruby.",
+    "category": "technical",
+    "metadata": {"doc_type": "api_reference", "version": "3.2"}
+  },
+  {
+    "title": "TechFlow Mobile App",
+    "content": "TechFlow has native mobile apps for iOS and Android. Download from the App Store or Google Play. The mobile app supports viewing and editing tasks, receiving push notifications, time tracking, commenting, and file uploads from your phone camera. Some advanced features like automations setup and workspace administration are only available on the web app. The mobile app works offline for viewing — changes sync when you reconnect. Make sure push notifications are enabled in your phone settings to receive task assignment and due date alerts.",
+    "category": "product_info",
+    "metadata": {"doc_type": "guide", "version": "2.8"}
+  }
+]

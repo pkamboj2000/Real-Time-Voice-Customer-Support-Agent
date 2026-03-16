@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Service Level Agreement (SLA) Policy",
+    "content": "TechFlow's SLA guarantees differ by plan. Starter plans do not include an SLA. Professional plans come with a 99.5% uptime SLA measured monthly. Enterprise plans include a 99.9% uptime guarantee. Uptime is measured as the percentage of total minutes in a calendar month during which the service is available, excluding scheduled maintenance windows. Scheduled maintenance occurs on Sundays between 2 AM and 6 AM Eastern and is announced at least 48 hours in advance. If uptime falls below the guaranteed level, affected customers are eligible for service credits. Credits are calculated as 10% of the monthly fee for each full percentage point below the guarantee, up to a maximum of 30%. Credit requests must be submitted within 30 days of the incident.",
+    "category": "billing",
+    "metadata": {"policy_type": "sla", "effective_date": "2025-07-01"}
+  },
+  {
+    "title": "Data Retention Policy",
+    "content": "Active accounts retain all data indefinitely while the subscription is active. When a subscription is cancelled, data is retained for 30 days to allow reactivation. After 30 days, all workspace data including projects, tasks, files, and user data is permanently and irreversibly deleted. Individual items deleted by users go to the workspace trash and are retained for 90 days before permanent deletion. Enterprise customers can configure custom data retention periods and automatic archival rules. Backups are performed every 6 hours and retained for 30 days. In case of accidental data loss, contact support within 30 days and we can attempt restoration from backups.",
+    "category": "account",
+    "metadata": {"policy_type": "data_retention", "effective_date": "2025-03-15"}
+  },
+  {
+    "title": "Acceptable Use Policy",
+    "content": "TechFlow is designed for professional project management and team collaboration. Users may not use the service for illegal activities, storage of prohibited content, cryptocurrency mining, sending spam or unsolicited messages, or activities that degrade service for other users. File storage should be used for project-related documents only. Accounts found violating this policy may be suspended with or without notice. We reserve the right to remove content that violates this policy. If you believe your account was suspended in error, contact support@techflow.io with your account details and we will review the decision within 2 business days.",
+    "category": "account",
+    "metadata": {"policy_type": "acceptable_use", "effective_date": "2025-01-01"}
+  },
+  {
+    "title": "Privacy Policy Summary",
+    "content": "TechFlow collects and processes personal data in accordance with GDPR and CCPA regulations. Data collected includes account information such as name and email used for account management and communication, usage data such as feature usage patterns used for product improvement, and payment information processed by Stripe as our payment processor and not stored on our servers. We do not sell personal data to third parties. We share data only with service providers necessary to operate the platform such as AWS for hosting, Stripe for payments, and SendGrid for email. Users can request data export or deletion at any time through account settings or by contacting privacy@techflow.io. Cookie preferences can be managed through the cookie banner on our website.",
+    "category": "account",
+    "metadata": {"policy_type": "privacy", "effective_date": "2025-06-01"}
+  }
+]

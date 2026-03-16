@@ -1,0 +1,22 @@
+{
+  "title": "Account Password Reset",
+  "description": "Caller needs help resetting their password and then asks about two-factor authentication.",
+  "caller_number": "+15551234567",
+  "turns": [
+    {
+      "caller": "Hi, I'm locked out of my account and I can't remember my password. Can you help?"
+    },
+    {
+      "caller": "Yeah, my email is sarah@example.com. I've been trying for the last hour."
+    },
+    {
+      "caller": "I checked my spam folder already. Still nothing. Should I try a different email?"
+    },
+    {
+      "caller": "Okay, one more thing. How do I set up two-factor authentication once I'm back in?"
+    },
+    {
+      "caller": "That's really helpful, thank you. I think that's all I needed."
+    }
+  ]
+}

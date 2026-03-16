@@ -1,0 +1,74 @@
+[
+  {
+    "title": "How do I reset my password?",
+    "content": "To reset your TechFlow password, go to the login page and click 'Forgot Password'. Enter the email address associated with your account. You'll receive a password reset link within 5 minutes. The link expires after 24 hours. If you don't receive the email, check your spam folder or contact support. If your account uses SSO through your company's identity provider, you'll need to reset your password through your company's IT department instead.",
+    "category": "account",
+    "metadata": {"priority": "high", "last_updated": "2025-11-15"}
+  },
+  {
+    "title": "What are your pricing plans?",
+    "content": "TechFlow offers three pricing tiers. The Starter plan is $12 per user per month and includes basic project management, up to 10 projects, and 5GB storage. The Professional plan is $29 per user per month and adds advanced reporting, unlimited projects, 50GB storage, time tracking, and priority support. The Enterprise plan is custom-priced and includes everything in Professional plus SSO, dedicated account manager, custom integrations, unlimited storage, and 99.9% SLA. All plans include a 14-day free trial with no credit card required. Annual billing gets a 20% discount.",
+    "category": "product_info",
+    "metadata": {"priority": "high", "last_updated": "2026-01-10"}
+  },
+  {
+    "title": "How do I cancel my subscription?",
+    "content": "You can cancel your TechFlow subscription at any time from your account settings. Go to Settings > Billing > Subscription and click 'Cancel Subscription'. Your access continues until the end of the current billing period. We don't offer prorated refunds for partial months, but if you cancel within the first 7 days of a new billing cycle we can issue a full refund for that period. Your data is retained for 30 days after cancellation in case you change your mind. After 30 days, all data is permanently deleted. If you're on an annual plan, please contact our billing team directly to discuss early termination options.",
+    "category": "cancellation",
+    "metadata": {"priority": "high", "last_updated": "2025-12-01"}
+  },
+  {
+    "title": "I'm getting an error when uploading files",
+    "content": "File upload errors in TechFlow are usually caused by one of a few things. First, check the file size — the maximum upload size is 100MB for individual files on Professional plans and 25MB on Starter. Second, make sure the file type is supported. We accept most common formats including PDF, DOCX, XLSX, PNG, JPG, ZIP, and CSV. Third, if you're behind a corporate firewall or VPN, it may be blocking the upload connection. Try disabling the VPN temporarily. If none of that works, try clearing your browser cache and cookies, or switching to a different browser. Chrome and Firefox work best with TechFlow. If the problem persists, please share the exact error message and we'll investigate further.",
+    "category": "technical",
+    "metadata": {"priority": "medium", "last_updated": "2025-10-20"}
+  },
+  {
+    "title": "How do I add team members to my project?",
+    "content": "To add team members, open the project you want to share and click the 'Members' tab in the left sidebar. Click 'Invite Members' and enter their email addresses. You can set their role to Viewer (read-only), Editor (can modify tasks and documents), or Admin (full control including billing). Invited members receive an email with a link to join. If they don't already have a TechFlow account, they'll be prompted to create one. Note that adding members counts toward your plan's user limit. On the Starter plan, you can have up to 10 members per workspace. Professional allows up to 100, and Enterprise is unlimited.",
+    "category": "technical",
+    "metadata": {"priority": "medium", "last_updated": "2025-09-15"}
+  },
+  {
+    "title": "What is your refund policy?",
+    "content": "TechFlow offers a 30-day money-back guarantee for new subscriptions. If you're not satisfied within the first 30 days, contact our billing team for a full refund. After the 30-day period, monthly plans can be cancelled anytime but are not eligible for refunds on the current period. Annual plans cancelled before the end of the term may be eligible for a prorated refund at our discretion — contact our billing team to discuss. Refunds typically take 5-10 business days to process and appear on your statement.",
+    "category": "billing",
+    "metadata": {"priority": "high", "last_updated": "2025-11-01"}
+  },
+  {
+    "title": "Does TechFlow integrate with other tools?",
+    "content": "Yes, TechFlow integrates with many popular tools. Native integrations include Slack, Microsoft Teams, Google Workspace, Jira, GitHub, GitLab, Figma, and Zapier. Through our REST API, you can build custom integrations with virtually any tool. The API documentation is available at docs.techflow.io/api. Slack and Teams integrations let you receive project notifications and update tasks directly from your messaging app. The Jira integration supports bidirectional sync. Zapier integration is available on Professional and Enterprise plans. Enterprise customers can also request custom integrations through their account manager.",
+    "category": "product_info",
+    "metadata": {"priority": "medium", "last_updated": "2026-01-05"}
+  },
+  {
+    "title": "How do I export my data?",
+    "content": "You can export your TechFlow data at any time. Go to Settings > Data Management > Export. You can export projects individually or your entire workspace at once. Export formats include CSV for task data, PDF for documents and reports, and JSON for programmatic access. Large exports are processed in the background and you'll receive an email with a download link when ready. The download link is valid for 7 days. On Enterprise plans, you also have access to our Data Portability API for automated bulk exports.",
+    "category": "account",
+    "metadata": {"priority": "medium", "last_updated": "2025-08-20"}
+  },
+  {
+    "title": "Is my data secure?",
+    "content": "TechFlow takes data security very seriously. All data is encrypted at rest using AES-256 and in transit using TLS 1.3. We are SOC 2 Type II certified and GDPR compliant. Our infrastructure is hosted on AWS in US and EU regions. We perform regular penetration testing through a third-party security firm. Enterprise customers can choose their data residency region. We also support single sign-on via SAML 2.0 and OIDC for Enterprise plans. Two-factor authentication is available on all plans and we strongly recommend enabling it. For our full security whitepaper, visit techflow.io/security.",
+    "category": "product_info",
+    "metadata": {"priority": "high", "last_updated": "2026-02-01"}
+  },
+  {
+    "title": "Why am I being charged a different amount than expected?",
+    "content": "There are a few reasons your charge might differ from what you expected. First, check if new team members were added during the billing period — charges are prorated for new users. Second, if you upgraded your plan mid-cycle, the difference is prorated and added to your next invoice. Third, applicable sales tax varies by region and is added automatically. Fourth, if you switched from annual to monthly billing, the per-user rate is higher on monthly plans. You can see a detailed breakdown of all charges in Settings > Billing > Invoice History. Each invoice itemizes user count, plan rate, prorations, and taxes. If something still looks wrong after checking these, reach out to our billing team and we'll sort it out.",
+    "category": "billing",
+    "metadata": {"priority": "high", "last_updated": "2025-12-15"}
+  },
+  {
+    "title": "How do I contact support?",
+    "content": "You can reach TechFlow support through several channels. Email us at support@techflow.io — we respond within 4 business hours for Professional plans and within 1 hour for Enterprise. Live chat is available on our website Monday through Friday, 9 AM to 6 PM Eastern. Phone support is available for Enterprise customers. You can also browse our help center at help.techflow.io which has step-by-step guides and video tutorials. For urgent issues affecting your entire team, use the 'Report Critical Issue' button in your account settings to flag it for immediate attention.",
+    "category": "general",
+    "metadata": {"priority": "medium", "last_updated": "2025-10-01"}
+  },
+  {
+    "title": "The app is running slowly",
+    "content": "If TechFlow feels sluggish, try these steps in order. First, check our status page at status.techflow.io to see if there's an ongoing incident. Second, clear your browser cache and reload. Third, check if you have many browser tabs or extensions running — adblockers sometimes interfere with our real-time features. Fourth, check your internet connection speed. TechFlow works best with at least 5 Mbps download. Fifth, if you're on a workspace with more than 1000 projects, try using filters to narrow your view — rendering a huge project list can be slow. If the problem is specific to one project, it might have an unusually large number of tasks. Try archiving completed tasks to improve performance.",
+    "category": "technical",
+    "metadata": {"priority": "medium", "last_updated": "2025-11-20"}
+  }
+]

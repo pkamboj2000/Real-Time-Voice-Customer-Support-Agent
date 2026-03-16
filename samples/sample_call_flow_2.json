@@ -1,0 +1,19 @@
+{
+  "title": "Billing Dispute with Escalation",
+  "description": "Caller is upset about unexpected charges. Gets increasingly frustrated and asks for a human agent.",
+  "caller_number": "+15559876543",
+  "turns": [
+    {
+      "caller": "I just saw a charge on my credit card for $58 from TechFlow. My plan is supposed to be $29. What is going on?"
+    },
+    {
+      "caller": "I didn't add anyone to my team! Nobody new joined this month. This has to be an error."
+    },
+    {
+      "caller": "Look, I've been a customer for two years. This is the second time I've had billing issues. I'm getting really frustrated."
+    },
+    {
+      "caller": "No, I don't want to check the invoice page. I want to speak with a real person who can actually fix this."
+    }
+  ]
+}
